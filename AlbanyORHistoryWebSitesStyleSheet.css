@@ -1,0 +1,80 @@
+
+ * {
+ box-sizing: border-box;
+}
+body  {
+background-color:#00FF00;
+
+}
+.left {
+ background-color:#00FF00;
+ padding:10;
+ float:left;
+ width:30%;/*The width is 20%, by default*/
+}
+.main {
+ background-color:#00FF00;
+ padding:10;
+ float:left;
+ width:20%;/*The width is 60%, by default*/
+}
+.right {
+ background-color:#00FF00;
+ padding:10;
+ float:left;
+ width:50%;/*The width is 20%, by default*/
+}
+/*Use a media query to add a break point at 800px:*/
+@media (max-width:800px) {
+ .left, .right, .main {
+   width:100%;/*The width is 100%, when the viewport is 800px or smaller*/
+ }
+}
+ p{
+  margin:10;
+  padding:10;
+  background-color:#00FF00;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  font-family:Arial;
+  font-size:10px;
+  color:Black;
+ }
+a:link {
+   color:#ffffff;
+   background-color:#4267b2;
+   cursor: pointer;
+   border: 1px solid #4080ff;
+   border-radius: 4px;
+   font-size: 13px;
+   height: 28px;
+   padding: 0 4px 0 6px;
+   text-decoration:none;
+}
+a:visited {
+   color:#ffffff;
+   background-color:#4080ff;
+   cursor: pointer;
+   border: 1px solid #4080ff;
+   border-radius: 4px;
+   font-size: 13px;
+   height: 28px;
+   padding: 0 4px 0 6px;
+   text-decoration:none;
+}
+a:hover {
+   color:Red;
+   background-color:White;
+   text-decoration:none;
+}
+a:active {
+      color:#ffffff;
+   background-color:#4080ff;
+   cursor: pointer;
+   border: 1px solid #4080ff;
+   border-radius: 4px;
+   font-size: 13px;
+   height: 28px;
+   padding: 0 4px 0 6px;
+   text-decoration:none;
+}
