@@ -68,9 +68,9 @@ a:hover {
    text-decoration:none;
 }
 a:active {
-      color:#ffffff;
-   background-color:#4080ff;
-   cursor: pointer;
+      color:White;
+   background-color:Red;
+   cursor: text;
    border: 1px solid #4080ff;
    border-radius: 4px;
    font-size: 13px;
