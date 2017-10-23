@@ -10,7 +10,7 @@ background-color:#00FF00;
  background-color:#00FF00;
  padding:10;
  float:left;
- width:25%;/*The width is 20%, by default*/
+ width:30%;/*The width is 20%, by default*/
 }
 .main {
  background-color:#00FF00;
@@ -22,7 +22,7 @@ background-color:#00FF00;
  background-color:#00FF00;
  padding:10;
  float:left;
- width:35%;/*The width is 20%, by default*/
+ width:40%;/*The width is 20%, by default*/
 }
 /*Use a media query to add a break point at 800px:*/
 @media (max-width:800px) {
