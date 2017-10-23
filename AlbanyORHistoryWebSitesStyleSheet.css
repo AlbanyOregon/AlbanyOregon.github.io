@@ -16,13 +16,13 @@ background-color:#00FF00;
  background-color:#00FF00;
  padding:10;
  float:left;
- width:20%;/*The width is 60%, by default*/
+ width:50%;/*The width is 60%, by default*/
 }
 .right {
  background-color:#00FF00;
  padding:10;
  float:left;
- width:50%;/*The width is 20%, by default*/
+ width:20%;/*The width is 20%, by default*/
 }
 /*Use a media query to add a break point at 800px:*/
 @media (max-width:800px) {
@@ -37,7 +37,7 @@ background-color:#00FF00;
   background-repeat:no-repeat;
   background-attachment:fixed;
   font-family:Arial;
-  font-size:10px;
+  font-size:11px;
   color:Black;
  }
 a:link {
@@ -79,8 +79,7 @@ a:active {
    text-decoration:none;
 }
 #overlay {
-    position: fixed;
-    display: true;
+ 
     width: 100%;
     height: 100%;
     top: 0;
@@ -94,9 +93,10 @@ a:active {
 }
 
 #text{
-    position: absolute;
+       position: fixed;
+    display: true;
     top: 5%;
-    left: 80%;
+    right: 0;
      color:Black;
    background-color: transparent;
    cursor: text;
@@ -111,7 +111,7 @@ a:active {
    text-decoration:none;
     transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
-       opacity: 0.8;
-    filter: alpha(opacity=80); /* For IE8 and earlier */
+       opacity: 0.9;
+    filter: alpha(opacity=90); /* For IE8 and earlier */
 }
 
