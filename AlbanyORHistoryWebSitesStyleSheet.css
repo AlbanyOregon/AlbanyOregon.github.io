@@ -96,7 +96,7 @@ a:active {
 #text{
     position: fixed;
     top: 5%;
-    left: 100%;
+    left: 60%;
      color:Black;
    background-color: transparent;
    cursor: text;
@@ -106,7 +106,7 @@ a:active {
     font-weight: 1000;
     text-shadow: 2px 2px 4px #00FF00;
    height: 28px;
-   width: 100%;
+   width: 350px;
    padding: 0 4px 0 6px;
    text-decoration:none;
     transform: translate(-50%,-50%);
