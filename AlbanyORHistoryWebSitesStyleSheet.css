@@ -10,7 +10,7 @@ background-color:#00FF00;
  background-color:#00FF00;
  padding:10;
  float:left;
- width:30%;/*The width is 20%, by default*/
+ width:20%;/*The width is 20%, by default*/
 }
 .main {
  background-color:#00FF00;
@@ -92,22 +92,28 @@ a:active {
     filter: alpha(opacity=80); /* For IE8 and earlier */
 }
 
+
 #text{
-     color:#00FF00;
+    position: absolute;
+    top: 5%;
+    left: 100%;
+     color:Black;
    background-color: transparent;
    cursor: text;
    border: 0px solid #4080ff;
    border-radius: 4px;
    font-size: 18px;
     font-weight: 1000;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 2px 2px 4px #00FF00;
    height: 28px;
    width: 100%;
    padding: 0 4px 0 6px;
    text-decoration:none;
     transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
- opacity: 0.9;
-    filter: alpha(opacity=90); /* For IE8 and earlier */
+       opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
 }
+
+
 
