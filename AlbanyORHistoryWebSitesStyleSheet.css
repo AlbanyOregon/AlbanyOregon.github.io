@@ -10,19 +10,19 @@ background-color:#00FF00;
  background-color:#00FF00;
  padding:10;
  float:left;
- width:30%;/*The width is 20%, by default*/
+ width:20%;/*The width is 20%, by default*/
 }
 .main {
  background-color:#00FF00;
  padding:10;
  float:left;
- width:50%;/*The width is 60%, by default*/
+ width:45%;/*The width is 60%, by default*/
 }
 .right {
  background-color:#00FF00;
  padding:10;
  float:left;
- width:20%;/*The width is 20%, by default*/
+ width:35%;/*The width is 20%, by default*/
 }
 /*Use a media query to add a break point at 800px:*/
 @media (max-width:800px) {
@@ -111,7 +111,8 @@ a:active {
    text-decoration:none;
     transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
-       opacity: 0.9;
+ z-index: 2;     
+ opacity: 0.9;
     filter: alpha(opacity=90); /* For IE8 and earlier */
 }
 
