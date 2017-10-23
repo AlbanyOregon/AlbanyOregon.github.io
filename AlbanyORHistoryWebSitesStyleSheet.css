@@ -94,7 +94,7 @@ a:active {
 
 
 #text{
-    position: absolute;
+    position: fixed;
     top: 5%;
     left: 100%;
      color:Black;
