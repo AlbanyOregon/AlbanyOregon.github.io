@@ -112,7 +112,7 @@ a:active {
    text-decoration:none;
     transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
-       opacity: 0.8;
+        opacity: 0.8;
     filter: alpha(opacity=80); /* For IE8 and earlier */
 }
 
