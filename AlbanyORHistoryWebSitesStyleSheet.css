@@ -4,6 +4,7 @@
 }
 body  {
 background-color:#00FF00;
+border: 5px solid black;
 
 }
 .left {
@@ -21,7 +22,7 @@ background-color:#00FF00;
 .right {
  background-color:#00FF00;
  padding:10;
- float:left;
+ float:right;
  width:40%;/*The width is 20%, by default*/
 }
 /*Use a media query to add a break point at 800px:*/
@@ -96,15 +97,15 @@ a:active {
 #text{
     position: fixed;
     top: 5%;
-    left: 60%;
+    left: 5%;
      color:Black;
    background-color: transparent;
-   cursor: text;
+   cursor: pointer;
    border: 0px solid #4080ff;
    border-radius: 4px;
    font-size: 18px;
     font-weight: 1000;
-    text-shadow: 2px 2px 4px #00FF00;
+    text-shadow: 4px 4px 8px #00FF00;
    height: 28px;
    width: 350px;
    padding: 0 4px 0 6px;
@@ -114,6 +115,5 @@ a:active {
        opacity: 0.8;
     filter: alpha(opacity=80); /* For IE8 and earlier */
 }
-
 
 
