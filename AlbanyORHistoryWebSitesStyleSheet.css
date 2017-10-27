@@ -104,10 +104,10 @@ a:active {
    border-radius: 4px;
    font-size: 18px;
     font-weight: 1000;
-    text-shadow: 4px 4px 8px #00FF00;
+    text-shadow: 8px 8px 4px #00FF00;
    height: 28px;
    width: 350px;
-   padding: 0 4px 0 6px;
+   padding: 5px 1px 5px 50px;
    text-decoration:none;
     transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
