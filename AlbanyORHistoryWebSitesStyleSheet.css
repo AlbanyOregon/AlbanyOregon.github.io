@@ -94,9 +94,9 @@ a:active {
 
 
 #text{
-    position: fixed;
+       position: fixed;
     top: 5%;
-    left: 15%;
+    left: 0%;
      color:Black;
    background-color: transparent;
    cursor: pointer;
@@ -104,13 +104,9 @@ a:active {
    border-radius: 4px;
    font-size: 18px;
     font-weight: 1000;
-    text-shadow: 8px 8px 4px #00FF00;
-   height: 28px;
-   width: 350px;
-   padding: 5px 1px 5px 50px;
+    text-shadow: 3px 3px 9px #00FF00;
+     width: 350px;
+   padding: 5px 1px 5px 10px;
    text-decoration:none;
-    transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-       opacity: 0.8;
-    filter: alpha(opacity=80); /* For IE8 and earlier */
+	   opacity: 0.8;
 }
