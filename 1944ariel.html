@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+
+<title>Albany 1944 high resolution photo.</title>
+
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta charset="utf-8" />
+
+<meta name="title" content="Albany 1944 high resolution photo." />
+<meta name="description" content="Ariel view of 1944 Albany" />
+<meta name="viewport" content="height=device-height,width=device-width,initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta property="og:description" content="Ariel view of 1944 Albany" />
+<meta property="og:title" content="Albany 1944 " />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="http://extrazoom.com/files/flg/image-32771/200.jpeg" />
+<meta property="og:site_name" content="Albany OR History" />
+<meta itemprop="image" content="http://extrazoom.com/files/flg/image-32771/200.jpeg" />
+<meta itemprop="name" content="Albany 1944 " />
+<meta itemprop="description" content="Ariel view of 1944 Albany" />
+
+<script src="/gp-theme/jquery-1.9.1.min.js" ></script>
+<script src="/gp-theme/jquery-migrate-1.1.1.min.js" ></script>
+<script src="/gp-theme/modernizr.custom.47387.js" ></script>
+<script src="/gp-theme/-utils.min.js" ></script>
+<script src="/gp-theme/screenfull.min.js" ></script>
+<script src="/gp-theme/jquery.imagesloaded.min.js" ></script>
+<script src="/gp-theme/jquery.mousewheel.min.js" ></script>
+<script src="/gp-theme/jquery.slider.min.js" ></script>
+<script src="/gp-theme/jquery.scroll-box.min.js" ></script>
+<script src="/gp-theme/jquery.draggable.min.js" ></script>
+<script src="/gp-theme/hammer.min.js" ></script>
+<script src="/gp-theme/jquery.hammer.min.js" ></script>
+<script src="/gp-theme/-extrazoom-viewer.min.js" ></script>
+<script src="/gp-theme/swfobject.min.js" ></script>
+
+<link rel="stylesheet" type="text/css" href="/gp-theme/image-viewer.css" />
+
+
+
+<script type="text/javascript" charset="utf-8">
+
+            var theImage =  "http://extrazoom.com/image-32771.html",
+                HTTP_NAME = "Albany 1944",
+                TOUCH_ENABLE,
+                SWF_VIEWER,
+                isInFrame = top === self ? false:true;
+
+            function trigger(selector, event){
+                $(selector).trigger(event);
+            }
+
+            $(function() {
+                    TOUCH_ENABLE = Modernizr.touch;
+
+                    var jsPlayer = true;
+
+                    if (swfobject.hasFlashPlayerVersion("10.0.0")) {//10
+                        // has Flash
+                        var att = { data:"http://extrazoom.com/extrazoom-viewer.swf", width:"500", height:"500" };
+                        var par = { flashvars:"&animate=1&fill=&btn_bg=000000&btn_fg=FFFFFF&pos_h=50&pos_v=50&autohide=0&image=http%3A%2F%2Fextrazoom.com%2Ffiles%2Fflg%2Fimage-32771", wmode:"opaque", bgcolor:"#333333", quality:"best"};
+                        var id = "extrazoom_viewer";
+                        SWF_VIEWER = swfobject.createSWF(att, par, id);
+                        $(window).bind("resize.viewer", function(){
+                            $("#extrazoom_viewer").css("width", $(window).width()+"px").css("height", $(window).height()+"px")
+                        });
+                        $(window).trigger("resize.viewer");
+                        // set js player
+                        jsPlayer = false;
+
+                        $(document).bind("mousewheel", function(e, delta) {
+                                         e.stopPropagation();
+                                         e.preventDefault();
+                                         SWF_VIEWER.handleWheel({
+                                            x: e.screenX,
+                                            y: e.screenY,
+                                            delta: 0 - delta,
+                                            ctrlKey: e.ctrlKey,
+                                            altKey: e.altKey,
+                                            shiftKey: e.shiftKey
+                                         });
+                                         return false;
+                                });
+
+                    }
+
+                    new Viewer.Main($("div#extrazoom_viewer"), theImage,  {
+                            leverInit:[0.5, 0.5],
+                            fillType:"fit",
+                            fullScreen:"1",
+                            embed:"0",
+                            animate:"1",
+                            autohide:"0",
+                            share:"1",
+                            info:"0",
+
+                            star_rating:"0",
+                            statistic:"1",
+                            qr_code:"1",
+                            contact:"1"
+
+                    }, jsPlayer);
+
+                });</script>
+
+
+
+<!--[if lt IE 9]>
+    <script src="http://extrazoom.com/gp-theme/js/html5.js"></script>
+    <style type="text/css">
+	   aside, nav, footer, header, section { display: block }
+    </style>
+<![endif]-->
+</head>
+<body>
+    <div id="extrazoom_viewer"></div>
+<noscript><div>
+    <h1>Albany 1944 ExtraZoom High Resolution Image</h1>
+    <h2>Ariel view of Albany</h2>
+    <div class="summary">
+      <div itemscope itemtype="http://data-vocabulary.org/Review-aggregate">
+        <span itemprop="itemreviewed">Albany 1944 ExtraZoom High Resolution Image</span>
+        <img itemprop="photo" src="http://extrazoom.com/files/flg/image-32771/9/0_0.jpeg" alt="Albany 1944 ExtraZoom High Resolution Image" />
+
+    <p>To view high resolustion images JavaScript support is required. Make sure your browser support JavaScript and JavaScript is enabled</p>
+
+    </div>
+</div></noscript>
+
+
+</body>
+</html>
